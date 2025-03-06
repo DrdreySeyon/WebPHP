@@ -2,7 +2,6 @@
 $ip = $_SERVER['REMOTE_ADDR']; // Récupère l'adresse IP du visiteur
 $image_url = "https://source.unsplash.com/random/800x600"; // Image aléatoire
 ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
