@@ -1,48 +1,17 @@
 <?php
-// Récupérer l'adresse IP du visiteur
-$ip = $_SERVER['REMOTE_ADDR'];
-// API pour obtenir une image aléatoire
-$image_url = "https://source.unsplash.com/random/800x600";
-// Page HTML
+$ip = $_SERVER['REMOTE_ADDR']; // Récupère l'adresse IP du visiteur
+$image_url = "https://source.unsplash.com/random/800x600"; // Image aléatoire
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon Site PHP</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-        .container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-        }
-        img {
-            width: 100%;
-            max-width: 800px;
-            border-radius: 10px;
-        }
-    </style>
 </head>
-<body>
-
-    <div class="container">
-        <h1>Bienvenue sur mon site !</h1>
-        <p>Ton adresse IP est : <strong><?php echo $ip; ?></strong></p>
-        <h2>Voici une belle image aléatoire :</h2>
-        <img src="<?php echo $image_url; ?>" alt="Image aléatoire">
-    </div>
-
+<body style="text-align: center; font-family: Arial, sans-serif;">
+    <h1>Ton adresse IP est : <?php echo $ip; ?></h1>
+    <h2>Voici une belle image :</h2>
+    <img src="<?php echo $image_url; ?>" alt="Image aléatoire" style="width: 80%; max-width: 800px;">
 </body>
 </html>
