@@ -1,7 +1,6 @@
 <?php
 // Récupérer l'adresse IP du visiteur
 $ip = $_SERVER['REMOTE_ADDR'];
-
 // API pour obtenir une image aléatoire
 $image_url = "https://source.unsplash.com/random/800x600";
 
