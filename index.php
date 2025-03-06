@@ -3,7 +3,7 @@
 $ip = $_SERVER['REMOTE_ADDR'];
 
 // API pour obtenir une image aléatoire
-$image_url = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.aleou.fr%2Fsalle-seminaire%2F14123-la-cigale.html&psig=AOvVaw07yisu9hHPcaZZBjB9sW43&ust=1741356398550000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDo553Q9YsDFQAAAAAdAAAAABAE";
+$image_url = "https://www.aleou.fr/xusers/ximg/wsuppliers/14123/max/theatre-la-cigale-paris.webp";
 
 // Page HTML
 ?>
